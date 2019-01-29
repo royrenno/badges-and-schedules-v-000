@@ -20,3 +20,14 @@ def assign_rooms(speakers)
     room messages << "Hello, #{speaker}! You'll be assigned to room #{room number}!"
     room_number+=1
   end
+  room messages
+end
+def printer(speakers)
+  #outputs the results of batch_badge_creator, and assign_rooms
+  badge messages.each do |message|
+puts message
+end
+room_messages = assign_rooms(speakers)
+puts message
+end
+end
