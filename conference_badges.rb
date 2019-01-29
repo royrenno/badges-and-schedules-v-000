@@ -11,3 +11,10 @@ badge messages << message
 end
 badge messages
 end
+def assign_rooms(speakers)
+  #assigns each speaker to a room,rooms 1-7.
+  #return a list room assignments in the form of:"Hello____!You'll be assigned to room_____!"
+  room_number = 1
+  room messages = []
+  speakers.each do |speaker|
+    
